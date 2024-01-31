@@ -1,2 +1,2 @@
 Data is on Kaggle. If it's not on Kaggle, search on Google.
-All scripts are practice for Engineer Big Data Analysis.
+All scripts are practice for Big Data Analysis.
