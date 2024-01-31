@@ -1,0 +1,5 @@
+data <- read.csv("P220501.csv",header = T,fileEncoding = "EUC-KR")
+str(data)
+summary(data)
+result <- subset(data,종량제봉투종류 == "규격봉투" & 종량제봉투용도 == "음식물쓰레기" & X2L가격 != 0)
+print(as.integer(mean(result$X2L가격,na.rm = T)))
